@@ -1,0 +1,27 @@
+{
+    "name": "ekhasanov/nekrida",
+    "description": "Nekrida is a web application framework with no dependencies and allowing flexible directory management.",
+    "type": "library",
+    "version": "0.6.2",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eldar Khassanov",
+            "email": "aulira@netc.fr",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : "^7.0",
+        "ext-json": "*",
+        "ext-pdo": "*"
+    },
+    "suggest": {
+        "twig/twig" : "Twig templates support for Nekrida"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nekrida\\": "src/"
+        }
+    }
+}
